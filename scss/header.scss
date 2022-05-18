@@ -1,0 +1,37 @@
+@use './variables' as *;
+
+.header {
+    max-width: 540px;
+
+    &_container {
+        width: 540px;
+        height: 168px;
+        margin: 80px 450px;
+    }
+
+    & h1 {
+        font-weight: 275;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        text-align: center;
+        color: $very-dark-blue;
+        margin-top: 80px;
+
+        & span {
+            font-weight: 600;
+        }
+    }
+
+    & p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.104167px;
+        color: $very-dark-blue;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        text-align: center;
+        margin: 16px auto 64px auto;
+    }
+}

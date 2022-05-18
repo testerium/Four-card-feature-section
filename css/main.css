@@ -1,0 +1,111 @@
+.header {
+  max-width: 540px;
+}
+.header_container {
+  width: 540px;
+  height: 168px;
+  margin: 80px 450px;
+}
+.header h1 {
+  font-weight: 275;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: hsl(234deg, 12%, 34%);
+  margin-top: 80px;
+}
+.header h1 span {
+  font-weight: 600;
+}
+.header p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.104167px;
+  color: hsl(234deg, 12%, 34%);
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-align: center;
+  margin: 16px auto 64px auto;
+}
+
+.grid_container {
+  width: 1110px;
+  height: 530px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.box, .box4, .box3, .box2 {
+  background: #FFFFFF;
+  box-shadow: 0px 15px 30px -11px hsl(229deg, 6%, 66%);
+  border-radius: 8px;
+}
+.box h2, .box4 h2, .box3 h2, .box2 h2 {
+  padding: 32px 0px 0 32px;
+}
+.box p, .box4 p, .box3 p, .box2 p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.0902778px;
+  color: hsl(234deg, 12%, 34%);
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding: 6px 32px 40px 32px;
+}
+.box img, .box4 img, .box3 img, .box2 img {
+  float: right;
+  padding: 0 32px 32px 0px;
+}
+.box1 {
+  border-top: solid 4px hsl(180deg, 62%, 55%);
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+.box2 {
+  border-top: solid 4px hsl(0deg, 78%, 62%);
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.box3 {
+  border-top: solid 4px hsl(212deg, 86%, 64%);
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+.box4 {
+  border-top: solid 4px hsl(34deg, 97%, 64%);
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 40px;
+}
+.attribution a {
+  color: hsl(234deg, 12%, 34%);
+}
+
+/*# sourceMappingURL=main.css.map */
