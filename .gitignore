@@ -17,3 +17,6 @@
 # Ignore all css build files
 css/*
 !css/.gitkeep 
+
+# Ignore node modules (npm)
+node_modules

@@ -49,16 +49,17 @@
     }
 
     &3 {
-        border-top: solid 4px $blue;
+        border-top: solid 4px $orange;
         grid-column: 2/3;
         grid-row: 3/5;
         @extend .box
     }
 
     &4 {
-        border-top: solid 4px $orange;
+        border-top: solid 4px $blue;
         grid-column: 3/4;
         grid-row: 2/4;
         @extend .box
     }
 }
+
